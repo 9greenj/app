@@ -4,6 +4,8 @@ body {
 
 .centered-text-container {
         text-align: center;
+        line-height: 100px;
+        padding: 10px 20px;
     }
 
 p,
