@@ -1,7 +1,12 @@
-body { background-color: lightblue; };
-p { text-align: center; };
-h1 { text-align: center; };
-h2 { text-align: center; };
-h3 { text-align: center; };
-h4 { text-align: center; };
-h5 { text-align: center; };
+body {
+    background-color: lightblue;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    text-align: center;
+}
