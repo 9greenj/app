@@ -2,8 +2,11 @@ body {
     background-color: lightblue;
 }
 
+.link-container {
+        text-align: center; /* Center the text within this container */
+    }
+
 p,
-a,
 h1,
 h2,
 h3,
