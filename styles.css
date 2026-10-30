@@ -1,23 +1,53 @@
 body {
-    background-color: lightblue;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: rgb(129, 214, 0);
+    font-weight: bolder;
 }
 
-.centered-text-container {
-        text-align: center;
-        line-height: 100px;
-        padding: 10px 20px;
-    }
-.centered-text-container-game-links {
-        text-align: center;
-        line-height: 20px;
-        padding: 10px 20px;
-    }
+a:link {
+  color: rgb(129, 214, 0);
+  text-decoration: none;
+}
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5 {
-    text-align: center;
+a:visited {
+  color: rgb(129, 214, 0);;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  text-decoration: underline;
+}
+
+.link {
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+    width: fit-content;
+    margin-left: 60px;
+    border-color: rgb(129, 214, 0);
+    font-weight: lighter;
+    color: rgb(129, 214, 0);
+}
+.title {
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+    width: fit-content;
+    border-color: rgb(129, 214, 0);
+}
+.gotw {
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-top:20px;
+    width: fit-content;
+    border-color: rgb(129, 214, 0);
 }
